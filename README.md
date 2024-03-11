@@ -5,7 +5,7 @@
     <img src="images/CC_Logo.png" alt="CC Tech Consulting" width="180" height="80">
   </a>
   <a href="https://bitnami.com/stack/odoo/cloud/aws/amis">
-    <img src="images/Bitnami.png" alt="Bitnami by VMWare" width="80" height="80">
+    <img src="images/Bitnami.png" alt="Bitnami by VMWare" width="180" height="80">
   </a>
   <h3 align="center">Odoo-17 Deployment:</h3>
 
