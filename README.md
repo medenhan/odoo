@@ -50,7 +50,8 @@ In this tutorial, I’ll walk you, step by step, through the process of using th
 5. Name your Virtual Server (something like "Odoo Server")
 
 6. On Application and OS Images (Amazon Machine Image) section search for Odoo 17
-![alt text](Searching_AMI.png)
+
+![alt text](images/Searching_AMI.png)
 
 ### Prerequisites
 
