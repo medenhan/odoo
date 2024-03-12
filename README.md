@@ -31,20 +31,26 @@ If you’re new to the cloud, the easiest way to get started with Amazon Web Ser
 
 Through the [AWS Marketplace](https://aws.amazon.com/marketplace), Amazon’s online application library;
 
-Through the AWS Console, Amazon’s online dashboard for AWS users;
+Through the [AWS Console](https://console.aws.amazon.com/), Amazon’s online dashboard for AWS users;
 
-Through Amazon Lightsail, Amazon’s virtual private servers.
+Through [Amazon Lightsail](https://amazonlightsail.com/), Amazon’s virtual private servers.
 
 In this tutorial, I’ll walk you, step by step, through the process of using the AWS Console to create and provision a new AWS cloud server. And since AWS offers a Free Tier valid for 12 months, you’ll have plenty of time to experiment with your server and Bitnami images without worrying about being billed for usage.
 
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
-
 ## Getting Started
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+1. Sign in to your [AWS account](https://console.aws.amazon.com/console/home)
+
+2. Go to your AWS Management Console
+
+3. Search for EC2 landing page
+
+4. Click on Launch instance
+
+5. Name your Virtual Server (something like "Odoo Server")
+
+6. On Application and OS Images (Amazon Machine Image) section search for Odoo 17
+![alt text](Searching_AMI.png)
 
 ### Prerequisites
 
