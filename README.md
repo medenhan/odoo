@@ -23,9 +23,19 @@
   </p>
   </div>
   
-# Project Title
+# Product Overview
 
-One Paragraph of the project description
+Odoo is an open source Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) platform that can consolidate a variety of business operations, from supply chain and project management to accounting and HR, into one system. It is supported by a community of over 20,000 contributors.
+
+If you’re new to the cloud, the easiest way to get started with Amazon Web Services is with Bitnami. Bitnami provides pre-packaged application images for AWS Cloud servers, so that you can get productive with your new server immediately. You can access and launch these images in three ways:
+
+Through the [AWS Marketplace](https://aws.amazon.com/marketplace), Amazon’s online application library;
+
+Through the AWS Console, Amazon’s online dashboard for AWS users;
+
+Through Amazon Lightsail, Amazon’s virtual private servers.
+
+In this tutorial, I’ll walk you, step by step, through the process of using the AWS Console to create and provision a new AWS cloud server. And since AWS offers a Free Tier valid for 12 months, you’ll have plenty of time to experiment with your server and Bitnami images without worrying about being billed for usage.
 
 Initially appeared on
 [gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
