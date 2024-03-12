@@ -81,7 +81,7 @@ Say what the step will be
     ssh -i /path/to/your/private-key.pem ec2-user@your-instance-public-ip
 
 Replace /path/to/your/private-key.pem with the path to your private key file (.pem) associated with the instance. Replace ec2-user with the appropriate username based on the AMI (Amazon Machine Image) used for your instance (e.g., bitnami, ubuntu, admin, etc.). Replace your-instance-public-ip with the public IP address or hostname of your AWS instance.
-<img src=" SSH/SG.png" alt="Connecting using SSH" width="600" height="400">
+<img src="images/SSH.png" alt="Connecting using SSH" width="600" height="400">
 And repeat
 
     until finished
