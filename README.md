@@ -22,7 +22,8 @@
     <a href="https://docs.bitnami.com/aws/faq/">AWS FAQ</a>
   </p>
   </div>
-  # Project Title
+  
+# Project Title
 
 One Paragraph of the project description
 
