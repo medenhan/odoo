@@ -20,10 +20,9 @@
     <a href="https://github.com/bitnami/vms">Report Bug</a>
     ·
     <a href="https://docs.bitnami.com/aws/faq/">AWS FAQ</a>
-     # Project Title
-    
   </p>
- 
+  </div>
+  # Project Title
 
 One Paragraph of the project description
 
@@ -117,4 +116,3 @@ details
   - Inspiration
   - etc
 
-</div>
