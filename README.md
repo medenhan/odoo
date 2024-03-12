@@ -51,9 +51,18 @@ In this tutorial, I’ll walk you, step by step, through the process of using th
 
 6. On Application and OS Images (Amazon Machine Image) section search for Odoo 17
 
-![image](Searching_AMI.png) 
+<img src="images/Searching_AMI.png" alt="Search for Odoo 17" width="600" height="500">
 
-<img src="images/Searching_AMI.png" alt="CC Tech Consulting" width="600" height="500">
+7. Look for and Click on the Community AMIs result
+
+8. You can choose from the list and click Select. (I used the up[Bitnami package for Odoo 17.0.20240305-1](https://bitnami.com/stack/odoo/cloud/aws))
+
+9. Choose Instance Type "t3a.small"
+
+10. Create a Key pair or use your existing one if you prefer. 
+
+11. By default the AMI creates a new security group called 'Bitnami package for Odoo-15.0.20240310-0 on Debian 12-AutogenByAWSMP--1' with the following rules:
+<img src="images/SG.png" alt="Security Group" width="600" height="100">
 
 ### Prerequisites
 
