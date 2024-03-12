@@ -55,7 +55,7 @@ In this tutorial, I’ll walk you, step by step, through the process of using th
 
 7. Look for and Click on the Community AMIs result
 
-8. You can choose from the list and click Select. (I used the up[Bitnami package for Odoo 17.0.20240305-1](https://bitnami.com/stack/odoo/cloud/aws))
+8. You can choose from the list and click Select. (I used the up [Bitnami package for Odoo 17.0.20240305-1](https://bitnami.com/stack/odoo/cloud/aws))
 
 9. Choose Instance Type "t3a.small"
 
@@ -63,6 +63,8 @@ In this tutorial, I’ll walk you, step by step, through the process of using th
 
 11. By default the AMI creates a new security group called 'Bitnami package for Odoo-15.0.20240310-0 on Debian 12-AutogenByAWSMP--1' with the following rules:
 <img src="images/SG.png" alt="Security Group" width="600" height="100">
+
+12. Confirm your selection by hitting the “Launch Instances” button.
 
 ### Prerequisites
 
@@ -72,13 +74,14 @@ Requirements for the software and other tools to build, test and push
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development
-environment running
+Open your terminal or command prompt and use the following SSH command to connect to your Odoo instance:
 
 Say what the step will be
 
-    Give the example
+    ssh -i /path/to/your/private-key.pem ec2-user@your-instance-public-ip
 
+Replace /path/to/your/private-key.pem with the path to your private key file (.pem) associated with the instance. Replace ec2-user with the appropriate username based on the AMI (Amazon Machine Image) used for your instance (e.g., bitnami, ubuntu, admin, etc.). Replace your-instance-public-ip with the public IP address or hostname of your AWS instance.
+<img src=" SSH/SG.png" alt="Connecting using SSH" width="600" height="400">
 And repeat
 
     until finished
