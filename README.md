@@ -51,9 +51,9 @@ In this tutorial, I’ll walk you, step by step, through the process of using th
 
 6. On Application and OS Images (Amazon Machine Image) section search for Odoo 17
 
-![image](D:\Resources\GitHub\Sample\odoo\images\Searching_AMI.png) 
+![image](Searching_AMI.png) 
 
-<img src="images/Searching_AMI.png" alt="CC Tech Consulting" width="600" height="400">
+<img src="images/Searching_AMI.png" alt="CC Tech Consulting" width="600" height="500">
 
 ### Prerequisites
 
