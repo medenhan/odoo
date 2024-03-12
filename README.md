@@ -52,7 +52,7 @@ In this tutorial, I’ll walk you, step by step, through the process of using th
 6. On Application and OS Images (Amazon Machine Image) section search for Odoo 17
 
 ![alt text](images/Searching_AMI.png)
-<img src="images/Searching_AMI.png" alt="CC Tech Consulting" >
+<img src="images/Searching_AMI.png" alt="CC Tech Consulting" width="600" height="400">
 ### Prerequisites
 
 Requirements for the software and other tools to build, test and push 
