@@ -81,17 +81,30 @@ Say what the step will be
     ssh -i /path/to/your/private-key.pem ec2-user@your-instance-public-ip
 
 Replace /path/to/your/private-key.pem with the path to your private key file (.pem) associated with the instance. Replace ec2-user with the appropriate username based on the AMI (Amazon Machine Image) used for your instance (e.g., bitnami, ubuntu, admin, etc.). Replace your-instance-public-ip with the public IP address or hostname of your AWS instance.
+
+//////////////////////////////////////////////////////////////////////////////
+
 <img src="images/SSH.png" alt="Connecting using SSH" width="600" height="400">
-And repeat
 
-    until finished
+//////////////////////////////////////////////////////////////////////////////
 
+List directories 
+
+    ls
+
+Open editor to copy bitnami_credentials 
+
+    nano bitnami_credentials
+    exit
+    
 End with an example of getting some data out of the system or using it
 for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+13. By returning to AWS Console click on Open address Public IPv4 link
+
+14. Paste the credentials copied to the opened Odoo login page and click on "Login"
 
 ### Sample Tests
 
