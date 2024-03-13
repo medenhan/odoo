@@ -95,6 +95,5 @@ List directories
 Open editor to copy bitnami_credentials 
 
     nano bitnami_credentials
-  
-    Exit
-  
+    
+<img src="images/Odoo_Login.png" alt="Logging page" width="200" height="300">
